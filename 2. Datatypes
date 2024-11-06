@@ -1,0 +1,81 @@
+package basicProgramming;
+
+public class Datatypes {
+
+	public static void main(String[] args) 
+	{
+		/*--------------------- Data Types --------------------*/
+		/* 
+		 # types of data
+			1. Premitive (Single/One variable/value/data at a time)
+				- byte, short, int, long ---> number without decimal
+				- float, double          ---> decimal number
+				- char                   ---> single character (single quote)
+				- boolean                ---> true/false
+			
+			2. Non-premitive/derived/collection (Multiple data at a time)
+				- String
+				- ArrayList
+				- HashMap
+				- HashSet
+				etc
+				
+			byte(1 byte = 8bit) -128 to 127  
+			short(2 byte) -32768 to 32767
+			int(4 byte) -2147483648 to 2147483647
+			long(8 byte) -9223372036854775808 to 9223372036854775807
+			float(4 byte) 
+			double(8 byte) 
+			char(2 byte)
+			boolean(1 byte)
+		*/
+		
+		
+		// Numeric data types
+		/*int a = 100, b = 200;
+		System.out.println("the value of a is : "+a);
+		System.out.println("the value of b is : "+b);
+		System.out.println(a+b);
+		System.out.println("the sum of a and b is: "+a+b);
+		System.out.println("the sum of a and b is: "+(a+b));
+		
+		byte by = 125;
+		System.out.println(by);
+		
+		short sh = 3535;
+		System.out.println(sh);
+		
+		long l = 1234567789;
+		System.out.println(l);*/
+		
+		/*
+		// Decimal numbers - float, double
+		float item_price = 15.5F; // literal needed
+		System.out.println(item_price);
+		
+		double dbl = 1234.4343412; // no need to use literal;
+		System.out.println(dbl);
+		*/
+		
+		
+		/*// Characters and String Values 
+		char grad = 'A'; // single quote and single character
+		System.out.println(grad);
+		
+		String name = "Jhon"; // double quote and multiple character
+		System.out.println(name);
+		*/
+		/*
+		char ch = 'ABC'; // invalid
+		String ch = 'ABC'; // invalid
+		String ch = 'A'; // invalid
+		String ch = "A"; // valid
+		char ch = 'A' // valid
+		*/
+		
+		boolean bl = true; // allows only true/false
+		System.out.println(bl);
+		
+	}
+
+}
