@@ -1,0 +1,37 @@
+package basicProgramming;
+
+public class Variables 
+{
+	public static void main(String[] args) 
+	{
+		/*---------------------------- Variables -------------------------*/
+		/*
+		int a; // declaration
+		a = 100; // assignment
+		int b = 200; // declaration+assignment
+		System.out.println(a);
+		System.out.println("Value of b is = "+b);
+		b = 500; // b will be updated with 500
+		System.out.println("Updated Value of b is = "+b); 
+		*/
+		
+		// Approach 1 - it will valid for different data type
+		/*int a = 100;
+		int b = 200;
+		int c = 300;*/
+		
+		// Approach 2 - it is valid only for same data type
+		/*int a, b, c;
+		a = 100;
+		b = 200;
+		c = 300;*/
+		
+		// Approach 3 - possible for same data type
+		int a = 100, b = 200, c = 300;
+		System.out.println("Value of a is: "+a);
+		System.out.println("Value of b is: "+b);
+		System.out.println("Value of c is: "+c);
+		// print all variables with single line
+		System.out.println(a+" "+b+" "+c);
+	}
+}
