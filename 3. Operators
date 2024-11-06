@@ -145,7 +145,27 @@ public class Operator {
 //		Ternary operator(3 variables required)
 		
 		
+		//		Assignment:
+//		1. Swapping of 2 numbers
+		int num1 = 10, num2 = 20, temp;
+		System.out.println("Before Swapping\n"+"num1 = "+num1+"\nnum2 = "+num2);
 		
+		//Solution 1 - (Using temporary variable)
+		/*temp = num1;
+		num1 = num2;
+		num2 = temp;*/
+		
+		//Solution 2 - (Using arithmetic operator)
+		/*num1 = num1 + num2; // 30
+		num2 = num1 - num2; // 10
+		num1 = num1 - num2; // 20*/
+		
+		//Solution 3 (Using Multiplication and division)
+		num1 = num1*num2; // 200
+		num2 = num1/num2; // 10
+		num1 = num1/num2; // 20
+		
+		System.out.println("After Swapping\n"+"num1 = "+num1+"\nnum2 = "+num2);
 		
 	}
 
